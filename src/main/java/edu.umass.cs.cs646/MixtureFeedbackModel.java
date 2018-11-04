@@ -19,7 +19,7 @@ import org.lemurproject.galago.core.util.WordLists;
 import org.lemurproject.galago.utility.Parameters;
 
 /**
- * @author Hamed Zamani (zamani@cs.umass.edu)
+ * @author Ashish Ranjan and Hamed Zamani (aranjan@cs.umass.edu , zamani@cs.umass.edu)
  */
 public class MixtureFeedbackModel implements ExpansionModel {
     protected Retrieval retrieval;
@@ -136,6 +136,7 @@ public class MixtureFeedbackModel implements ExpansionModel {
     }
 
     //computeWeights function returns a list of terms with their weights extracted from the feedback docs
+	// This part does the EM step of the mixture model
     public List<WeightedTerm> computeWeights(FeedbackData feedbackData, Parameters fbParam, Parameters queryParameters) throws Exception {
         try {
             List<WeightedTerm> wt = new ArrayList<>();
