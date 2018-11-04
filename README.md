@@ -4,5 +4,5 @@ A small example to use Galago batch search using mixture models for pseudo relev
 ## Requirements
 java 1.8 or higher <br />
 Apache Ant Maven > 3 <br />
-Galgago jars - Follow these instructions: <br />
+Lemur Project Galago jars - Follow these instructions: <br />
 https://sourceforge.net/p/lemur/wiki/Galago%20Installation/
