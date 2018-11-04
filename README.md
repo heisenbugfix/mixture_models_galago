@@ -2,7 +2,7 @@
 A small example to use Galago batch search using mixture models for pseudo relevance feedback
 
 ## Requirements
-java 1.8 or higher__
-Apache Ant Maven > 3__
-Galgago jars - Follow these instructions:__
+java 1.8 or higher <br />
+Apache Ant Maven > 3 <br />
+Galgago jars - Follow these instructions: <br />
 https://sourceforge.net/p/lemur/wiki/Galago%20Installation/
